@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#sidebar{
+    min-width: 280px;
+max-width: 280px;
+background-color: #15283c;
+color: #fff;
+transition: all 0.3s;
+position: relative;
+z-index: 11;
+box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.4);
+float: left;
+width: 100%;
+background-image: url('img/pattern_h.png');
+position: fixed;
+height: 100%;
+overflow: auto;
+
+}
+.logo{
+    padding: 0;
+    width: auto;
+    text-align: center;
+    background: transparent;
+    float: left;
+}
+.logo img.logo_icon{
+    margin: 0;
+    text-align: center;
+    padding: 8px 8px;
+    height: 60px;
+}
