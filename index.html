@@ -3,66 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>admin_panel</title>
-    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="fonts/remixicon.css">
 </head>
 <body>
+    <div class="main d-flex border border-danger">
+        <div class="sidebar border p-3">lorem</div>
+        <div class="sub-main border  w-100"> 
+          
+                <nav class="navbar navbar-expand-lg  w-100" style="background-color: #15283c; color:white;">
+                    <div class="container-fluid">
+                        <button class="menu me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                      <a class="navbar-brand" href="#"><img src="img/logo_icon.png" class="img-fluid " style="width:50px;"><span class="text-white fw-semibold fs-2 p-2">Pluto</span></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+          
+                         <i class="ri-notification-line pe-2 fs-4"></i>
+                          <i class="ri-question-fill pe-2 fs-4"></i>
+                          <i class="ri-mail-line pe-2 fs-4"></i>
 
-  <section>
-    <div class="position-fixed start-0 top-0 border p-5" style="height:100vh;">
-  
+                        </div>
+                    
+                        
+                      </div>
+                    </div>
+                  </nav>
+            </div>
     </div>
-  </section>
-
-
-  <nav class="navbar navbar-dark bg-dark fixed-top ">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="img/user_img.jpg" width="60px" class="rounded-circle">
-         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button></a>
     
-
-      <div class="offcanvas offcanvas-start  show canvas" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex mt-3" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </nav>
-
-  
-
-
-  <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(".menu").click(function(){
+            $(".sidebar").toggleClass("hideside");
+        })
+    </script>
 </body>
-</html>                                                                                                                                                                                                                                                                           
+</html>

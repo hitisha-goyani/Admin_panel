@@ -4,30 +4,14 @@
     box-sizing: border-box;
 
 }
-#offcanvasDarkNavbar{
-    min-width: 280px;
-max-width: 280px;
-background-color: #15283c;
-color: #fff;
-transition: all 0.3s;
-z-index: 11;
-box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.4);
-background-image: url('https://themewagon.github.io/pluto/images/layout_img/pattern_h.png');
-position: fixed;
-height: 100%;
-
-
+.sidebar{
+    width:300px;
+    background-color: aqua;
+    transition: all 0.5s;
 }
-.logo{
-    padding: 0;
-    width: auto;
-    text-align: center;
-    background: transparent;
-    float: left;
+.main{
+    height: 100vh;
 }
-.logo img.logo_icon{
-    margin: 0;
-    text-align: center;
-    padding: 8px 8px;
-    height: 60px;
+.hideside{
+    width:50px;
 }
