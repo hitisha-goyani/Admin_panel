@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="fonts/remixicon.css">
 </head>
 <body>
-    <div class="main d-flex border border-danger">
-        <div class="sidebar border p-3">lorem</div>
+    <div class="main d-flex ">
+        <div class="sidebar border p-3">
+          <div class="d-flex"></div>
+        </div>
         <div class="sub-main border  w-100"> 
           
-                <nav class="navbar navbar-expand-lg  w-100" style="background-color: #15283c; color:white;">
+                <nav class="navbar navbar-expand-lg  w-100 border border-dark p-0" style="background-color: #15283c; color:white;">
                     <div class="container-fluid">
                         <button class="menu me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -23,17 +25,40 @@
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
-          
-                         <i class="ri-notification-line pe-2 fs-4"></i>
-                          <i class="ri-question-fill pe-2 fs-4"></i>
-                          <i class="ri-mail-line pe-2 fs-4"></i>
+                        <ul style="list-style-type: none;float:left; " class="d-flex list-style-none">
+                          <li class="position-relative  me-2">
+                            <i class="ri-notification-line pe-2 fs-4">
+                              <span class="badge">2</span>
+                            </i>
+                          </li>
+                          <li> 
+                            <i class="ri-question-fill pe-2 fs-4"></i>
+                          </li>
+                          <li class="position-relative  me-2">
+                            <i class="ri-mail-line pe-2 fs-4">
+                              <span class="badge">3</span>
+                            </i>
+                          </li>
+                        </ul>
 
-                        </div>
-                    
-                        
+                        <ul style="list-style-type: none;">
+                          <li class="og">
+                            <a class="dropdown-toggle text-decoration-none" data-bs-toggle="dropdown">
+                              <img src="img/user_img.jpg" style="width:35px;" class="rounded-circle ">
+                              <span class="text-white name">John David</span>
+                            </a>
+                          </li>
+                        </ul>
+        
+
+                        </div>        
                       </div>
+                      </nav>
+                      <div class="container border border-danger p-5"></div>
                     </div>
-                  </nav>
+                    
+                 
+                  
             </div>
     </div>
     
