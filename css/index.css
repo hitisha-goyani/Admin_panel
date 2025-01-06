@@ -14,7 +14,7 @@
     height: 100vh;
 }
 .hideside{
-    width:50px;
+    width:65px;
 }
 .badge{
     font-size: 10px;
@@ -97,4 +97,25 @@ ul .og>a::after{
 .dash{
     margin-right: 20px;
     font-size: 25px;
+}
+.hideside .text2{
+    text-align: center;
+}
+.hideside .hide{
+    display: none;
+}
+.text3{
+    background: #fff;
+
+    padding: 25px 35px 22px 38px;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+   
+   
+}
+.head{
+    font-size: 20px;
+    font-weight: 500;
+    color: #15283c;
+    position: relative;
 }
