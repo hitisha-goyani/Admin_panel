@@ -155,4 +155,14 @@ ul .og>a::after{
     color: #666;
    
 }
+.text9{
+    font-size: 14px;
+    color: #455a64;
+    font-weight: 500;
+}
+.text10{
+    float: right;
+    display:inline-block;
+    font-size: 14px;
+}
 
