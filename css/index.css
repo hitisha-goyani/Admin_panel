@@ -165,4 +165,11 @@ ul .og>a::after{
     display:inline-block;
     font-size: 14px;
 }
+.social{
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0 15px;
+}
+
 
