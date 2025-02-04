@@ -171,5 +171,16 @@ ul .og>a::after{
     width: 100%;
     padding: 15px 0 15px;
 }
-
+.text-1{
+    font-weight: 600;
+    color: #455a64;
+    font-size: 18px;
+}
+.text-2
+{
+   
+    color: #99abb4;
+    font-size: 17px;
+    font-weight: 300;
+}
 
