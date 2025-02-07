@@ -184,3 +184,20 @@ ul .og>a::after{
     font-weight: 300;
 }
 
+.icon{
+    width: 50%;
+    font-size: 18px;
+    color: #455a64;
+    line-height: 24px;
+}
+.icon1{
+
+    color: #99abb4;
+    font-size: 17px;
+    font-weight: 300;
+}
+.st{
+    font-weight: 600;
+    color: #455a64;
+    font-size: 18px;
+}
