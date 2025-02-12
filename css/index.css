@@ -201,3 +201,18 @@ ul .og>a::after{
     color: #455a64;
     font-size: 18px;
 }
+.list li:nth-child(1){
+    border-left-color: #ff9800;
+    
+}
+ul li{
+    padding: 22px 40px;
+    border-bottom: solid #eee 1px;
+    line-height: normal;
+    font-size: 14px;
+    border-left: solid 5px #666;
+    float: left;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
