@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>admin panel</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="fonts/remixicon.css">
@@ -359,7 +359,8 @@
       <div class="col-sm-12 col-md-3 col-lg-3 col-6 shadow-sm border rounded-1 border-dark  p-0">
         <div class="p-2 shadow-sm border rounded-2 border-dark  ms-2">
         <div class=" col-12 border border-danger py-2 text-center" style="background-color: #d34836;">
-          <i class="fa-brands fa-google-plus-g text-white fs-1 "></i>
+
+      <i class="ri-google-fill text-white fs-1"></i>
         </div>
         <div class="col-12 border border-dark">
           <div class=" w-100 py-2">
@@ -384,7 +385,7 @@
     </div>
     </div>
 
-    <!-- messages and calender start -->
+    <!-- messages and calender start
      <div class="row my-5">
         <div class="col-md-4">
           <div class="text-white shadow-sm rounded-1">
@@ -399,24 +400,47 @@
               <div class="row">
                 <div class="col-md-12">
                   <ul class="list-style-none list">
+                    <li class="in">
+                      <span>
+                        <img src="img/1.png" alt="" width="50px" class="rounded-circle">
+                      </span>
+                      <span class="d-inline-block">
+                        <span class="user_name">John Smith</span>
+                        <span class="user_msg">Sed ut perspiciatis unde omnis.</span>
+                        <span class="user_time">12 min ago</span>
+                      </span>
+                    </li>
                     <li></li>
                     <li></li>
                     <li></li>
-                    <li></li>
-                  </ul>
+                  </ul> 
 
 
-                </div>
+                 </div>
               </div>
             </div>
+          
           </div>
+        
+
+</div>  
+    
+<div class="col-3">
+  <canvas id="myChart"></canvas>
 
 
-</div>     
+</div>   
+</div>  -->
+
+
+<div class="row my-5">
+  <div class="col-md-12  border border-danger ">
+    <div class="shadow-sm ">
+      <img src="img/download.png" width="100%">
+    </div>
+   
+  </div>
 </div>
-
-
-
 
 
 
@@ -468,6 +492,32 @@
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script>
+    const ctx = document.getElementById('myChart');
+  
+    new Chart(ctx, {
+      type: 'polarArea',
+      data: {
+        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+          label: '# of Votes',
+          data: [12, 19, 3, 5, 2, 3],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  </script>
+
+  
 
 
   <script>

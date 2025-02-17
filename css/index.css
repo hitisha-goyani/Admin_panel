@@ -161,7 +161,7 @@ ul .og>a::after{
     font-weight: 500;
 }
 .text10{
-    float: right;
+    
     display:inline-block;
     font-size: 14px;
 }
@@ -205,7 +205,20 @@ ul .og>a::after{
     border-left-color: #ff9800;
     
 }
-ul li{
+.list li:nth-child(2){
+    border-left-color: #2196f3;
+}
+
+.list li:nth-child(3){
+    border-left-color: #673ab7;
+}
+.list li:nth-child(4){
+    border-left-color: #e91e63;
+
+}
+
+
+.list li{
     padding: 22px 40px;
     border-bottom: solid #eee 1px;
     line-height: normal;
@@ -215,4 +228,38 @@ ul li{
     width: 100%;
     display: flex;
     position: relative;
+}
+
+.in{
+    padding: 22px 40px;
+    border-bottom: solid #eee 1px;
+    line-height: normal;
+    font-size: 14px;
+    border-left: solid 5px #666;
+    float: left;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.user_name{
+
+    font-size: 16px;
+    font-weight: 500;
+    color: #455a64;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.user_msg{
+
+    font-size: 15px;
+    font-weight: 300;
+    color: #99abb4;
+}
+.user_time{
+    position: absolute;
+    right: 40px;
+    top: 25px;
 }
