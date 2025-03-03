@@ -107,6 +107,9 @@ ul .og>a::after{
 .hideside .hide{
     display: none;
 }
+.hidebar .show1{
+    display:flex!important;
+}
 .text3{
     background: #fff;
     margin-top: 0;
@@ -262,4 +265,19 @@ ul .og>a::after{
     position: absolute;
     right: 40px;
     top: 25px;
+}
+
+@media (max-width:1199px){
+    .d-n{
+    display: none!important;
+    }
+
+    .sidebar{
+        width:0px;
+        overflow: hidden;
+    }
+    .hideside{
+        width:300px;
+    }
+
 }
