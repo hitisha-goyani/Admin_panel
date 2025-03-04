@@ -261,11 +261,27 @@ ul .og>a::after{
     font-weight: 300;
     color: #99abb4;
 }
-/* .user_time{
+ul li span .user_time{
     position: absolute;
     right: 40px;
     top: 25px;
-} */
+}
+.c{
+    border-bottom: solid #f3f3f3 2px;
+    padding: 18px 25px 15px;
+   
+    
+}
+tr:nth-child(1) th {
+    font-weight: 500;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+    border: none;
+    color: #fff;
+    text-align: center;
+    background: #1ed085;
+    font-size: 21px;
+    padding: 15px 0;
+}
 
 @media (max-width:1199px){
     .d-n{
