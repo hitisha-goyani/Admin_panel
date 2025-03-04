@@ -257,19 +257,19 @@ ul .og>a::after{
 
 .user_msg{
 
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
     color: #99abb4;
 }
-.user_time{
+/* .user_time{
     position: absolute;
     right: 40px;
     top: 25px;
-}
+} */
 
 @media (max-width:1199px){
     .d-n{
-    display: none!important;
+        display: none!important;
     }
 
     .sidebar{
