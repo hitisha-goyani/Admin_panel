@@ -268,7 +268,7 @@ ul li span .user_time{
 }
 .c{
     border-bottom: solid #f3f3f3 2px;
-    padding: 18px 25px 15px;
+    padding: 10px;
    
     
 }
@@ -318,9 +318,9 @@ header .calendar-navigation span {
     margin-right: -10px;
 }
 
-header .calendar-navigation span:hover {
+/* header .calendar-navigation span:hover {
     background: #f2f2f2;
-}
+} */
 
 header .calendar-current-date {
     font-weight: 500;
@@ -328,9 +328,9 @@ header .calendar-current-date {
  
 }
 
-.calendar-body {
-    padding: 20px;
-}
+/* .calendar-body {
+    padding: 5px;
+} */
 
 .calendar-body ul {
     list-style: none;
@@ -355,7 +355,7 @@ header .calendar-current-date {
 }
 
 .calendar-body .calendar-dates li {
-    margin-top: 30px;
+    margin-top: 20px;
     position: relative;
     z-index: 1;
     cursor: pointer;
@@ -363,9 +363,9 @@ header .calendar-current-date {
 
 .calendar-dates li.inactive {
     color: #aaa;
-}
+} 
 
-.calendar-dates li.active {
+ .calendar-dates li.active {
     color: #fff;
 }
 
